@@ -14,7 +14,7 @@ class UI {
       const select = document.getElementById("cryptocurrency");
 
       cryptoCurrencies.forEach(currency => {
-        // add the <option>
+        // Add the <option>
         const option = document.createElement("option");
         option.value = currency.id;
         option.appendChild(document.createTextNode(currency.name));
